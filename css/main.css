@@ -2,10 +2,6 @@ html {
   font-family: "Fredoka One", sans-serif;
 }
 
-.text-banner {
-
-}
-
 .banner {
   background-image: repeating-linear-gradient(145deg, #d4fdff 12px, #d4fdff 24px, #c9fcff 24px, #c9fcff 36px);
   border-top: 7px solid #b3fbff;
@@ -63,6 +59,7 @@ h1 {
     opacity: 1;
     transform: rotate(-8deg);
   }
+
 }
 
 @keyframes intro-p {
@@ -78,6 +75,7 @@ h1 {
     opacity: 1;
     transform: rotate(-8deg);
   }
+
 }
 
 @keyframes btn-ghost {
@@ -91,6 +89,7 @@ h1 {
     filter: blur(0);
     opacity: 1;
   }
+
 }
 
 .ice-cream {
@@ -116,15 +115,18 @@ h1 {
 .chocolate {
   animation: chocolate .3s .6s ease-in forwards;
   left: 53%;
+  z-index: 2;
 }
 
 .vanilla {
   animation: vanilla .2s .9s ease-in forwards;
   left: 48%;
+  z-index: 4;
 }
 
 .cherry {
   animation: cherry .15s 1.5s ease-in forwards;
+  z-index: 6;
 }
 
 @keyframes cone {
